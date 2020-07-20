@@ -27,15 +27,20 @@ body{
 /* general styling---------- */
 ul{
     list-style-type: none;
+  
 
 }
 ul li a{
     text-decoration: none;
     color: var(--Grayish-Blue);
 }
+ul li a:hover {
+   color: rgb(2, 100, 100);
+}
 p{
     color: var(--Grayish-Blue);
     line-height: 1.5;
+    
 }
 h1{
     font-weight: 400;
